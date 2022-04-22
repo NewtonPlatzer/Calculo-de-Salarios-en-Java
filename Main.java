@@ -27,35 +27,62 @@ public class Main {
                 case 1:
                     if (antiquity == 1){
                         System.out.println("*" + name + " you have right to 6 vacation's days, have a happy day.*");
+                        name = "";
+                        key = 0;
+                        antiquity = 0;
                         break;
                     } else if (antiquity >= 2 && antiquity <= 6) {
                         System.out.println("*" + name + " you have right to 14 vacation's days, have a happy day.*");
+                        name = "";
+                        key = 0;
+                        antiquity = 0;
                         break;
                     } else if (antiquity >= 7 ) {
                         System.out.println("*" + name + " you have right to 20 vacation's days, have a happy day.*");
+                        name = "";
+                        key = 0;
+                        antiquity = 0;
                         break;
                     }
                 case 2:
                     if (antiquity == 1){
                         System.out.println("*" + name + " you have right to 7 vacation's days, have a happy day.*");
+                        name = "";
+                        key = 0;
+                        antiquity = 0;
                         break;
                     } else if (antiquity >= 2 && antiquity <= 6) {
                         System.out.println("*" + name + " you have right to 15 vacation's days, have a happy day.*");
+                        name = "";
+                        key = 0;
+                        antiquity = 0;
                         break;
                     } else if (antiquity >= 7 ) {
                         System.out.println("*" + name + " you have right to 22 vacation's days, have a happy day.*");
+                        name = "";
+                        key = 0;
+                        antiquity = 0;
                         break;
                     }
 
                 case 3:
                     if (antiquity == 1){
                         System.out.println("*" + name + " you have right to 10 vacation's days, have a happy day.*");
+                        name = "";
+                        key = 0;
+                        antiquity = 0;
                         break;
                     } else if (antiquity >= 2 && antiquity <= 6) {
                         System.out.println("*" + name + " you have right to 20 vacation's days, have a happy day.*");
+                        name = "";
+                        key = 0;
+                        antiquity = 0;
                         break;
                     } else if (antiquity >= 7 ) {
                         System.out.println("*" + name + " you have right to 30 vacation's days, have a happy day.*");
+                        name = "";
+                        key = 0;
+                        antiquity = 0;
                         break;
                     }
 
